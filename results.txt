@@ -1,0 +1,65 @@
+ git status
+On branch master
+nothing to commit, working tree clean
+
+Гав@DESKTOP-5S1S81F MINGW64 /d/git_practik (master)
+$ git branch
+  branch1
+* master
+
+Гав@DESKTOP-5S1S81F MINGW64 /d/git_practik (master)
+$ git log
+commit e002cd96348735a739435752c178862fa54ceace (HEAD -> master)
+Author: ArturBas4477 <145192400+ArturBas4477@users.noreply.github.com>
+Date:   Sat Oct 14 19:17:29 2023 +0300
+
+    Create new_file
+
+commit 7a4d531649714ec0e0a3aa9fec29ee21f829e4da
+Merge: 41b166f ffe30fb
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:46:14 2023 +0300
+
+    ficx конфлікта idex.html master
+
+commit 41b166f43a54e3db993f7afe123edefda80ec161
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:31:45 2023 +0300
+
+    зміни в idex.html master
+
+commit ffe30fbff6359eec541496dbd38b40cdcb49c6c4 (branch1)
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:10:28 2023 +0300
+
+    зміни в idex.html3
+
+commit 01f36331470caea550a99178fffbf3ef1ceb0112
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:09:39 2023 +0300
+
+    зміни в idex.html2
+
+commit 66b3e1c5c162fc6768f69887f018d2b849bad177
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:07:16 2023 +0300
+
+    зміни в idex.html
+
+commit d04577cbef00d12c67388d5304ba5e37b7704674
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 17:57:38 2023 +0300
+
+    додано сторінку idex.html
+
+Гав@DESKTOP-5S1S81F MINGW64 /d/git_practik (master)
+$ git log --merges
+commit 7a4d531649714ec0e0a3aa9fec29ee21f829e4da
+Merge: 41b166f ffe30fb
+Author: artur <basartur020@gmail.com>
+Date:   Sat Oct 14 18:46:14 2023 +0300
+
+    ficx конфлікта idex.html master
+
+Гав@DESKTOP-5S1S81F MINGW64 /d/git_practik (master)
+$
